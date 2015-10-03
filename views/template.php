@@ -170,7 +170,7 @@
 
 				<?php if ($view->menu()->exists('footer')) : ?>
 					<div class="<?php ($view->position()->exists('footer') ? 'uk-margin-large-top' : '') ?>">
-						<?= $view->menu('footer', ['class' => 'uk-subnav uk-subnav-line uk-flex-center']) ?>
+						<?= $view->menu('footer', ['depth' => 1, 'class' => 'uk-subnav uk-subnav-line uk-flex-center']) ?>
 					</div>
 				<?php endif ?>
 
