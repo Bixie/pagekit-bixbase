@@ -2,7 +2,7 @@
     "name": "bixie/bixbase",
     "module": "bixie/bixbase",
     "type": "pagekit-theme",
-    "version": "0.2.0",
+    "version": "0.8.0",
     "title": "Bixie Base",
     "description": "Basic theme for Pagekit, based on UIkit Almost Flat theme",
     "license": "MIT",
