@@ -123,6 +123,9 @@ return [
 
 		'view.system/site/admin/edit' => function ($event, $view) {
 			$view->script('node-theme', 'theme:app/bundle/node-theme.js', 'site-edit');
+			$view->data('$bixie' , [
+				'styles' => $this->getStyles()
+			]);
 		},
 
 		'view.system/widget/edit' => function ($event, $view) {
