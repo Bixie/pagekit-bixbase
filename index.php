@@ -44,6 +44,7 @@ return [
 		'feature' => 'Feature',
 		'top-1' => 'Top 1',
 		'top-2' => 'Top 2',
+		'breadcrumbs' => 'Breadcrumbs',
 		'content-top' => 'Content top',
 		'sidebar' => 'Sidebar',
 		'content-bottom' => 'Content bottom',
